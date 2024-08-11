@@ -1,11 +1,12 @@
 import React from 'react'
 import './Home.css'
 import Navbar from '../../components/Navbar/Navbar';
-// import bgimage from "../../assets/"
+
 import homebg from '../../assets/homebg.jpg';
 import playicon from '../../assets/playicon.png';
 import moreinfo from '../../assets/moreinfo.png';
 import Titlecard from '../../components/Titlecard/Titlecard';
+import Mayur from './Mayur';
 
 
 const Home = () => {
@@ -19,10 +20,9 @@ const Home = () => {
         <button className='buttonn'><img src={moreinfo} alt=''className='moreinfo'/> </button>
     
 </div>
-
-  
           <Titlecard/>
         </div>
+        <Mayur/>
       </div>
       
   )
